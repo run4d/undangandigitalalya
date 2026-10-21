@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5ef">
+  <meta name="description" content="Undangan pernikahan Alya dan Raka. Kami mengundang Anda untuk merayakan hari istimewa kami.">
+  <title>The Wedding of Alya & Raka</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- SAMPUL PEMBUKA -->
+  <section class="cover" id="cover">
+    <div class="cover-shade"></div>
+
+    <div class="cover-frame">
+      <p class="eyebrow">THE WEDDING CELEBRATION</p>
+
+      <p class="cover-pretitle">Together with our families</p>
+
+      <h1 class="cover-names">
+        Alya <span>&</span> Raka
+      </h1>
+
+      <div class="gold-line"></div>
+
+      <p class="cover-date">21 NOVEMBER 2026</p>
+
+      <p class="cover-caption">
+        Kepada Yth. Bapak/Ibu/Saudara/i
+      </p>
+
+      <p class="guest-name" id="guestName">Tamu Undangan</p>
+
+      <button class="button button-gold" id="openInvitation" type="button">
+        <span aria-hidden="true">✧</span> Buka Undangan
+      </button>
+
+      <p class="cover-note">WE WOULD BE HONORED BY YOUR PRESENCE</p>
+    </div>
+  </section>
+
+  <!-- WEBSITE UNDANGAN -->
+  <main id="mainContent" hidden>
+
+    <nav class="navbar">
+      <a href="#home" class="brand">A <span>&</span> R</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#couple">Mempelai</a>
+        <a href="#event">Acara</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#rsvp">RSVP</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <p class="eyebrow">A BEAUTIFUL BEGINNING</p>
+      <p class="script-title">The Wedding Of</p>
+
+      <h2 class="hero-names">
+        Alya Putri <span>&</span> Raka Pratama
+      </h2>
+
+      <p class="hero-date">Sabtu, 21 November 2026</p>
+      <div class="gold-line"></div>
+
+      <p class="section-copy">
+        Dengan penuh rasa syukur, kami mengundang
+        Bapak/Ibu/Saudara/i untuk hadir dan memberikan
+        doa restu pada hari bahagia kami.
+      </p>
+
+      <div class="countdown" aria-label="Hitung mundur pernikahan">
+        <div class="count-box">
+          <strong id="days">00</strong>
+          <span>Hari</span>
+        </div>
+        <div class="count-box">
+          <strong id="hours">00</strong>
+          <span>Jam</span>
+        </div>
+        <div class="count-box">
+          <strong id="minutes">00</strong>
+          <span>Menit</span>
+        </div>
+        <div class="count-box">
+          <strong id="seconds">00</strong>
+          <span>Detik</span>
+        </div>
+      </div>
+
+      <a href="#event" class="button button-outline">Lihat Detail Acara</a>
+    </section>
+
+    <!-- MEMPELAI -->
+    <section class="section couple-section" id="couple">
+      <p class="eyebrow">TWO HEARTS, ONE SOUL</p>
+      <h2 class="section-title">Mempelai</h2>
+
+      <p class="section-copy">
+        Dua hati dipertemukan dalam kasih, untuk memulai
+        perjalanan baru bersama.
+      </p>
+
+      <div class="couple-grid">
+        <article class="person">
+          <div class="portrait">
+            <img
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85"
+              alt="Foto mempelai wanita"
+              loading="lazy">
+          </div>
+          <p class="person-label">THE BRIDE</p>
+          <h3>Alya Putri</h3>
+          <p>Putri dari</p>
+          <p class="parents">Bapak Ahmad & Ibu Siti</p>
+        </article>
+
+        <div class="couple-ampersand" aria-hidden="true">&</div>
+
+        <article class="person">
+          <div class="portrait">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=85"
+              alt="Foto mempelai pria"
+              loading="lazy">
+          </div>
+          <p class="person-label">THE GROOM</p>
+          <h3>Raka Pratama</h3>
+          <p>Putra dari</p>
+          <p class="parents">Bapak Budi & Ibu Rina</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- KUTIPAN -->
+    <section class="quote-section section">
+      <p class="quote-mark" aria-hidden="true">“</p>
+      <p class="quote-copy">
+        Dan di antara tanda-tanda kekuasaan-Nya ialah
+        Dia menciptakan pasangan-pasangan untukmu agar
+        kamu merasa tenteram kepadanya.
+      </p>
+      <p class="quote-reference">QS. Ar-Rum: 21</p>
+    </section>
+
+    <!-- DETAIL ACARA -->
+    <section class="section event-section" id="event">
+      <p class="eyebrow">SAVE THE DATE</p>
+      <h2 class="section-title">Detail Acara</h2>
+
+      <p class="section-copy">
+        Kehadiran serta doa restu Anda akan menjadi
+        kebahagiaan yang berarti bagi kami.
+      </p>
+
+      <div class="event-grid">
+        <article class="event-card">
+          <p class="event-symbol" aria-hidden="true">✧</p>
+          <p class="event-label">THE CEREMONY</p>
+          <h3>Akad Nikah</h3>
+          <div class="gold-line"></div>
+          <p class="event-date">Sabtu, 21 November 2026</p>
+          <p class="event-time">08.00 WIB – selesai</p>
+          <p class="event-place">Kediaman Mempelai Wanita</p>
+          <p class="event-address">Probolinggo, Jawa Timur</p>
+        </article>
+
+        <article class="event-card">
+          <p class="event-symbol" aria-hidden="true">✧</p>
+          <p class="event-label">THE CELEBRATION</p>
+          <h3>Resepsi</h3>
+          <div class="gold-line"></div>
+          <p class="event-date">Sabtu, 21 November 2026</p>
+          <p class="event-time">11.00–14.00 WIB</p>
+          <p class="event-place">Kediaman Mempelai Wanita</p>
+          <p class="event-address">Probolinggo, Jawa Timur</p>
+        </article>
+      </div>
+
+      <a
+        class="button button-gold"
+        href="https://www.google.com/maps/search/?api=1&query=Probolinggo%2C%20Jawa%20Timur"
+        target="_blank"
+        rel="noopener noreferrer">
+        Buka Google Maps
+      </a>
+    </section>
+
+    <!-- GALERI -->
+    <section class="section gallery-section" id="gallery">
+      <p class="eyebrow">OUR MEMORIES</p>
+      <h2 class="section-title">Galeri Kami</h2>
+      <p class="section-copy">
+        Potongan kenangan dalam perjalanan cinta kami.
+      </p>
+
+      <div class="gallery-grid">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85"
+            alt="Momen pernikahan"
+            loading="lazy">
+        </figure>
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=900&q=85"
+            alt="Pasangan pengantin"
+            loading="lazy">
+        </figure>
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=85"
+            alt="Dekorasi pernikahan"
+            loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section rsvp-section" id="rsvp">
+      <p class="eyebrow">KINDLY RESPOND</p>
+      <h2 class="section-title">RSVP & Ucapan</h2>
+
+      <p class="section-copy">
+        Mohon konfirmasikan kehadiran dan tinggalkan
+        doa terbaik untuk perjalanan baru kami.
+      </p>
+
+      <form id="rsvpForm" class="rsvp-form">
+        <div class="form-group">
+          <label for="name">Nama lengkap</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            maxlength="100"
+            placeholder="Masukkan nama Anda"
+            required>
+        </div>
+
+        <div class="form-group">
+          <label for="attendance">Konfirmasi kehadiran</label>
+          <select id="attendance" name="attendance" required>
+            <option value="">Pilih jawaban</option>
+            <option value="Hadir">Ya, saya akan hadir</option>
+            <option value="Tidak hadir">Maaf, belum bisa hadir</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="guestCount">Jumlah tamu</label>
+          <select id="guestCount" name="guestCount" required>
+            <option value="1">1 orang</option>
+            <option value="2">2 orang</option>
+            <option value="3">3 orang</option>
+            <option value="4">4 orang</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ucapan & doa</label>
+          <textarea
+            id="message"
+            name="message"
+            maxlength="1000"
+            rows="4"
+            placeholder="Tuliskan doa terbaik Anda..."></textarea>
+        </div>
+
+        <button class="button button-gold" id="submitRsvp" type="submit">
+          Kirim RSVP
+        </button>
+
+        <p id="rsvpStatus" class="status-message" role="status" aria-live="polite"></p>
+      </form>
+
+      <!-- UCAPAN DARI GOOGLE SHEETS -->
+      <div class="wishes-section" id="wishes">
+        <h3 class="wishes-title">Ucapan dari Keluarga & Sahabat</h3>
+        <p class="section-copy">
+          Setiap doa adalah hadiah yang berharga bagi kami.
+        </p>
+
+        <p id="wishesLoading" class="status-message" role="status" aria-live="polite">
+          Memuat ucapan...
+        </p>
+
+        <div id="wishesList" class="wishes-list" aria-live="polite"></div>
+
+        <button
+          class="button button-outline"
+          id="loadMoreWishes"
+          type="button"
+          hidden>
+          Muat Ucapan Lainnya
+        </button>
+      </div>
+    </section>
+
+    <!-- HADIAH PERNIKAHAN -->
+    <section class="section gift-section" id="gift">
+      <p class="eyebrow">A TOKEN OF LOVE</p>
+      <h2 class="section-title">Wedding Gift</h2>
+
+      <p class="section-copy">
+        Doa restu Anda merupakan hadiah terindah bagi kami.
+        Apabila ingin berbagi tanda kasih, berikut informasi kami.
+      </p>
+
+      <div class="gift-card">
+        <p class="bank-label">BANK BCA</p>
+        <p class="account-number" id="accountNumber">1234567890</p>
+        <p class="account-owner">Alya Putri</p>
+
+        <button class="button button-outline" id="copyAccount" type="button">
+          Salin Nomor Rekening
+        </button>
+
+        <p id="copyStatus" class="status-message" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- PENUTUP -->
+    <section class="closing-section section">
+      <p class="eyebrow">WITH LOVE & GRATITUDE</p>
+      <p class="script-title">Terima Kasih</p>
+      <p class="section-copy">
+        Merupakan kehormatan dan kebahagiaan bagi kami
+        apabila Anda berkenan hadir serta memberikan doa restu.
+      </p>
+      <h2 class="closing-names">Alya <span>&</span> Raka</h2>
+      <p class="closing-date">21 · 11 · 2026</p>
+    </section>
+
+    <footer class="footer">
+      <p>Made with love for Alya & Raka</p>
+      <p>© 2026 · Wedding Invitation</p>
+    </footer>
+
+    <!-- MUSIK OPSIONAL: masukkan assets/music.mp3 -->
+    <audio id="backgroundMusic" loop preload="none">
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button
+      class="music-toggle"
+      id="musicToggle"
+      type="button"
+      aria-label="Putar atau jeda musik"
+      aria-pressed="false">
+      ♫
+    </button>
+
+  </main>
+</body>
+</html>
